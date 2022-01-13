@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextQRCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:drawableRight="@drawable/baseline_content_copy_24"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_QRCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_dark"
+            android:text="QRCode"
+            android:textColor="@android:color/white" />
+
+        <FrameLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+        </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_dark"
+            android:text="Save"
+            android:textColor="@android:color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_QRCode_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_dark"
+            android:text="QRCode Scanner"
+            android:textColor="@android:color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_screenBrightness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_dark"
+            android:text="Bright"
+            android:textColor="@android:color/white" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="500px" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.QRCodeTool.MainActivity">
+
+
+    <item
+        android:id="@+id/action_down"
+        android:icon="@android:drawable/stat_sys_download_done"
+        app:showAsAction="ifRoom"
+        android:title="" />
+    <item
+        android:id="@+id/action_up"
+        android:icon="@android:drawable/stat_sys_upload_done"
+        app:showAsAction="ifRoom"
+        android:title="" />
+
+
+</menu>
